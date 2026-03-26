@@ -34,7 +34,7 @@ export function AICoachSection() {
         <SectionHeader
           eyebrow="AI Coach"
           title="Ask direct questions about the work."
-          description="Use the coach for scene questions, character questions, and practical rehearsal notes."
+          description="Use the coach to clarify the scene, the character, or the next rehearsal step."
         />
         <div className="prompt-suggestions">
           <span>Try:</span>
@@ -58,8 +58,8 @@ export function AICoachSection() {
       <div className="panel coach-panel">
         <SectionHeader
           eyebrow="Response"
-          title="Short notes you can apply right away."
-          description="The coach should read like a disciplined rehearsal partner, not a chatbot."
+          title="Short answers you can use."
+          description="The coach should sound like a rehearsal note, not a chatbot."
         />
         <div className="message-stack">
           {messages.map((message, index) => (

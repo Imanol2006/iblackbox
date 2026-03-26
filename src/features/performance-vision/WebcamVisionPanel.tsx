@@ -94,9 +94,9 @@ export function WebcamVisionPanel() {
     <section className="vision-panel panel">
       <div className="section-header">
         <span className="eyebrow">Live vision starter</span>
-        <h2>Track face and body signals during rehearsal.</h2>
+        <h2>Track visible face and body signals.</h2>
         <p>
-          This panel is the first CV integration point: webcam capture, MediaPipe landmarks, and rehearsal metrics based on visible behavior rather than guessed emotion labels.
+          This panel tests webcam capture, MediaPipe landmarks, and simple rehearsal metrics based on what the camera can see.
         </p>
       </div>
 
@@ -105,7 +105,7 @@ export function WebcamVisionPanel() {
           <video ref={videoRef} className="vision-video" autoPlay muted playsInline />
           {sessionState !== "ready" ? (
             <div className="vision-overlay">
-              <strong>{sessionState === "loading" ? "Starting vision session..." : "Camera preview idle"}</strong>
+              <strong>{sessionState === "loading" ? "Starting camera..." : "Camera off"}</strong>
               <span>Start the session to test face and pose tracking on-device.</span>
             </div>
           ) : null}

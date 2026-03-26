@@ -20,16 +20,16 @@ const navItems = [
 
 const featurePreview = [
   {
-    title: "Break down the scene first",
-    body: "Paste the material, define the moment, and get a clear read on objective, beats, tension, and playable choices."
+    title: "Read the scene first",
+    body: "Paste the scene, add the context, and get a clear breakdown of objective, beats, tension, and choices."
   },
   {
-    title: "Practice with a simple loop",
-    body: "Study the script, hide lines, run cues, and repeat with purpose instead of rehearsing blindly."
+    title: "Practice in one place",
+    body: "Study the script, hide lines, run cues, and repeat the scene without jumping between tools."
   },
   {
-    title: "Review what changed",
-    body: "Record a take, review the notes, and track progress so each session gives you a concrete next step."
+    title: "Review the take",
+    body: "Record a take, review the notes, and track progress so each session ends with a clear next step."
   }
 ];
 
@@ -40,7 +40,7 @@ export default function App() {
       <header className="topbar">
         <div>
           <span className="brand-mark">Black Box</span>
-          <p>Solo practice, with feedback</p>
+          <p>Acting studio for solo practice</p>
         </div>
         <nav className="topnav">
           {navItems.map((item) => (
@@ -59,7 +59,7 @@ export default function App() {
         <section className="feature-preview">
           {featurePreview.map((item) => (
             <article key={item.title} className="panel preview-card">
-              <span className="eyebrow">Core feature</span>
+              <span className="eyebrow">Feature</span>
               <h3>{item.title}</h3>
               <p>{item.body}</p>
             </article>

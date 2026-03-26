@@ -18,10 +18,10 @@ export function VisionArchitectureSection() {
     <section className="vision-architecture panel">
       <div className="section-header">
         <span className="eyebrow">Vision architecture</span>
-        <h2>Computer vision should measure what the camera can actually see.</h2>
+        <h2>Use computer vision for visible signals only.</h2>
         <p>
-          Black Box uses face and body tracking to measure physical rehearsal behavior. That keeps the product
-          credible and gives the actor useful signals before higher-level coaching is added.
+          Black Box uses face and body tracking to measure physical rehearsal behavior. That gives the actor useful
+          signals without pretending the system can judge everything.
         </p>
       </div>
       <div className="vision-layer-grid">

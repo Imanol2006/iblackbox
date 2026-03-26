@@ -28,8 +28,8 @@ export function PerformanceAnalysisSection() {
         <div className="panel">
           <SectionHeader
             eyebrow="Performance Analysis"
-            title="Review the take and see what to fix next."
-            description="Upload a take or test the camera flow, then get structured notes on delivery, clarity, presence, posture, body language, facial expression, and pacing."
+            title="Review the take and decide what to adjust."
+            description="Upload a take or test the camera flow, then review notes on delivery, clarity, presence, posture, body language, facial expression, and pacing."
           />
           <div className="upload-grid">
             <label className="upload-card">
@@ -38,28 +38,28 @@ export function PerformanceAnalysisSection() {
               <input type="file" accept="video/*" onChange={handleFileChange} />
             </label>
             <div className="upload-card webcam-card">
-              <span>Live capture path</span>
-              <strong>Camera workflow ready</strong>
-              <p>This is the handoff point for webcam capture, computer vision, and later full session analysis.</p>
+              <span>Camera input</span>
+              <strong>Ready for live capture</strong>
+              <p>This is where live capture and analysis will plug into the product.</p>
             </div>
           </div>
           <div className="system-note">
             <span className="eyebrow">Tech note</span>
             <p>
-              MediaPipe can measure visible body and face signals. OpenAI can turn those signals into clear acting
-              notes. The MVP keeps that flow visible without pretending the analysis is finished.
+              Computer vision can measure visible face and body signals. That data can later be turned into clearer
+              performance notes.
             </p>
           </div>
           <button type="button" className="button button-primary" onClick={handleAnalyze} disabled={loading}>
-            {loading ? "Reviewing performance..." : "Generate Performance Review"}
+            {loading ? "Reviewing performance..." : "Generate Review"}
           </button>
         </div>
 
         <div className="panel">
           <SectionHeader
             eyebrow="Review"
-            title="A report built around the next take."
-            description="Scores help you scan the take. The useful part is the note attached to each category."
+            title="A review organized by category."
+            description="Scores help you scan the take. The note under each category is what matters."
           />
           {review ? (
             <div className="review-stack">

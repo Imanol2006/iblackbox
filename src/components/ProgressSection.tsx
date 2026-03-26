@@ -28,8 +28,8 @@ export function ProgressSection() {
       <div className="panel">
         <SectionHeader
           eyebrow="Progress Dashboard"
-          title="Make progress easy to see."
-          description="The dashboard shows whether practice is turning into visible improvement."
+          title="See what is improving."
+          description="The dashboard shows how much work is getting done and what is starting to improve."
         />
         <div className="metrics-grid metrics-grid-wide">
           <article className="metric-card">
@@ -62,7 +62,7 @@ export function ProgressSection() {
         <SectionHeader
           eyebrow="Trends"
           title="Confidence, posture, and consistency over time."
-          description="These are mocked metrics for now, but the layout is ready for real session history later."
+          description="These are mock metrics for now. Later this can show real session history."
         />
         <div className="trend-grid">
           <TrendChart values={progressMetrics.confidenceTrend} label="Confidence" />

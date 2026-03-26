@@ -7,8 +7,8 @@ export function CommunitySection() {
       <div className="panel">
         <SectionHeader
           eyebrow="Community"
-          title="A space for actors to help each other improve."
-          description="This part is lighter in the MVP, but it shows how local groups, forums, and focused discussion can fit into the product."
+          title="A place for actors to trade notes and support."
+          description="This part is lighter in the MVP, but it shows where local groups and focused discussions can fit."
         />
         <div className="focus-tags">
           {communityCategories.map((category) => (

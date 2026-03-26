@@ -3,24 +3,23 @@ export function HeroSection() {
     <section className="hero panel">
       <div className="hero-copy">
         <span className="eyebrow">AI-powered feedback for actors practicing alone</span>
-        <h1>Practice alone. Improve with structure.</h1>
+        <h1>Feedback for actors who practice alone.</h1>
         <p>
-          Most actors spend hours rehearsing without anyone telling them what is working or what needs to change.
-          Black Box gives solo practice a clear loop: understand the scene, rehearse it, record it, review it, and
-          improve the next take.
+          Most actors spend hours practicing on their own without clear feedback. Black Box helps them study the scene,
+          rehearse it, review a take, and see what to work on next.
         </p>
         <div className="hero-actions">
-          <a href="#scene-analysis" className="button button-primary">Analyze a Scene</a>
-          <a href="#script-practice" className="button button-secondary">Open Practice Studio</a>
+          <a href="#scene-analysis" className="button button-primary">Start with a Scene</a>
+          <a href="#script-practice" className="button button-secondary">Open Script Practice</a>
         </div>
         <div className="hero-proof">
           <div>
-            <strong>Understand the scene</strong>
-            <span>Get a quick breakdown of the moment before you start memorizing or recording.</span>
+            <strong>Scene breakdown</strong>
+            <span>Get a quick read on the moment before you start memorizing or recording.</span>
           </div>
           <div>
-            <strong>Get useful notes</strong>
-            <span>Review delivery, presence, posture, pacing, and what to fix in the next pass.</span>
+            <strong>Performance notes</strong>
+            <span>Review delivery, presence, posture, pacing, and what to adjust in the next pass.</span>
           </div>
         </div>
       </div>
@@ -28,7 +27,7 @@ export function HeroSection() {
         <div className="stage-frame">
           <div className="stage-screen">
             <div className="stage-topline stage-topline-label">
-              <span>Black Box studio loop</span>
+              <span>Black Box workflow</span>
               <strong>Understand - Practice - Perform - Analyze - Improve</strong>
             </div>
             <div className="studio-metric">
@@ -37,7 +36,7 @@ export function HeroSection() {
             </div>
             <div className="studio-callout">
               <p>Built for actors who usually rehearse on their own</p>
-              <h3>Feedback when no coach is in the room.</h3>
+              <h3>Work through the scene before you record it.</h3>
             </div>
             <div className="studio-grid">
               <div>
@@ -46,11 +45,11 @@ export function HeroSection() {
               </div>
               <div>
                 <span>Practice</span>
-                <strong>Memorization and cues</strong>
+                <strong>Lines and cue work</strong>
               </div>
               <div>
                 <span>Review</span>
-                <strong>Notes you can use</strong>
+                <strong>Clear next steps</strong>
               </div>
             </div>
           </div>

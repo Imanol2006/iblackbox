@@ -44,8 +44,8 @@ export function ScriptPracticeSection() {
       <div className="panel">
         <SectionHeader
           eyebrow="Script Practice"
-          title="Practice the script without distractions."
-          description="Use one workspace for reading, memorization, cue work, and repeat runs."
+          title="Practice the script in one place."
+          description="Use one screen for reading, memorization, cue work, and repeats."
         />
         <label className="field">
           <span>Practice script</span>
@@ -71,8 +71,8 @@ export function ScriptPracticeSection() {
       <div className="panel script-panel">
         <SectionHeader
           eyebrow="Practice mode"
-          title="Keep the work simple and repeatable."
-          description="Hide lines, reveal them when needed, and use cues to rehearse transitions instead of just reciting the page."
+          title="Keep the scene moving."
+          description="Hide lines when needed and use cues to rehearse transitions instead of just reciting the page."
         />
         <div className="script-actions">
           <button type="button" className="button button-secondary" onClick={() => setRoundCount((value) => value + 1)}>

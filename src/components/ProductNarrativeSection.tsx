@@ -8,19 +8,19 @@ export function ProductNarrativeSection() {
       <div className="panel story-panel">
         <SectionHeader
           eyebrow="Problem"
-          title="Most actors practice alone and do not know what to improve."
-          description="Repetition helps with memory, but it does not tell an actor whether the scene is clear, the objective is playable, or the performance is getting stronger."
+          title="Most actors practice alone and get little feedback."
+          description="Repetition helps with memory, but it does not tell an actor whether the scene is clear, the objective is playable, or the performance is improving."
         />
         <div className="story-grid">
           <article className="story-card">
             <span className="eyebrow">What is missing</span>
-            <h3>Actors need feedback, not just memorization tools.</h3>
-            <p>Most products stop at scripts and self-tapes. They do not help actors break down the work, notice patterns, or adjust between takes.</p>
+            <h3>Memorizing lines is not the same as improving a performance.</h3>
+            <p>Most tools stop at scripts and self-tapes. They do not help actors break down the work, notice patterns, or adjust between takes.</p>
           </article>
           <article className="story-card">
             <span className="eyebrow">What Black Box does</span>
-            <h3>It turns solo practice into guided practice.</h3>
-            <p>Scene analysis, script study, performance review, and coaching stay in one loop so the actor can understand the scene, rehearse with intent, and improve over time.</p>
+            <h3>Black Box gives actors a simple practice loop.</h3>
+            <p>Scene analysis, script study, performance review, and coaching stay in one flow so the actor can understand the scene, rehearse with intent, and improve over time.</p>
           </article>
         </div>
       </div>
@@ -29,7 +29,7 @@ export function ProductNarrativeSection() {
         <SectionHeader
           eyebrow="How it works"
           title="Understand -> Practice -> Perform -> Analyze -> Improve"
-          description="This is the core product loop. Each part gives the actor a clearer next move."
+          description="This is the core product loop. Each step leads to the next."
         />
         <div className="loop-grid">
           {loopSteps.map((step, index) => (

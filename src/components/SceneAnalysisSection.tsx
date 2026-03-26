@@ -36,7 +36,7 @@ export function SceneAnalysisSection() {
         <SectionHeader
           eyebrow="Scene Analysis"
           title="Break down the scene before rehearsal."
-          description="Paste a script or monologue, add the situation, and get a clear analysis you can actually use."
+          description="Paste a script or monologue, add the situation, and get a clear breakdown of the scene."
         />
         <form className="stack-lg" onSubmit={handleSubmit}>
           <label className="field">
@@ -61,7 +61,7 @@ export function SceneAnalysisSection() {
             <button type="submit" className="button button-primary" disabled={loading}>
               {loading ? "Analyzing..." : "Analyze Scene"}
             </button>
-            <p className="support-copy">Start here before memorization, rehearsal, or camera work.</p>
+            <p className="support-copy">Start here before memorization or camera work.</p>
           </div>
           {error ? <p className="error-copy">{error}</p> : null}
         </form>
@@ -70,8 +70,8 @@ export function SceneAnalysisSection() {
       <div className="panel analysis-panel">
         <SectionHeader
           eyebrow="Output"
-          title="A scene breakdown built for actors."
-          description="The response is structured so you can move straight into rehearsal."
+          title="A breakdown you can use in rehearsal."
+          description="The response is organized so you can move straight into practice."
         />
         {analysis ? (
           <div className="analysis-grid">
@@ -115,7 +115,7 @@ export function SceneAnalysisSection() {
         ) : (
           <div className="empty-state">
             <h3>Run a scene analysis</h3>
-            <p>You will get a summary, objective, emotional beats, tension, questions, and acting choices.</p>
+            <p>Get a summary, objective, emotional beats, tension, questions, and acting choices.</p>
           </div>
         )}
       </div>
